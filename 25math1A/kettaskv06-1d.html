@@ -4599,9 +4599,12 @@ tmp1=screenbounds();tmp1=[tmp1_2_1,0];
 Center=Center-Rbound+tmp1;
 if(nqu>=2,  //add embed
 pP1=[0,0];
-pP2=pP1+[0,-3];//2
+pP2=pP1+[0,-3];
+pP3=pP2+[0,-3];
 Letter(Mvpt(pP1),"e","「すべての実数」のときは a と入力せよ．");
 Letter(Mvpt(pP2),"e","「解なし」のときは b と入力せよ．");
+Letter(Mvpt(pP3),"e","　それ以外のときは，ふつうに式で答えよ．");
+
 ); //add embed
 Windispg();
 
